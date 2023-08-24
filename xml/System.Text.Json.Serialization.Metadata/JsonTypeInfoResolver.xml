@@ -101,7 +101,7 @@ Can be used to combine multiple <xref:System.Text.Json.Serialization.JsonSeriali
         <ReturnType>System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resolver" Type="System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver" Index="0" FrameworkAlternate="net-8.0" RefType="this" />
+        <Parameter Name="resolver" Type="System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver" RefType="this" Index="0" FrameworkAlternate="net-8.0" />
         <Parameter Name="modifier" Type="System.Action&lt;System.Text.Json.Serialization.Metadata.JsonTypeInfo&gt;" Index="1" FrameworkAlternate="net-8.0" />
       </Parameters>
       <Docs>

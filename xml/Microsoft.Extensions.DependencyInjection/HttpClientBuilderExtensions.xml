@@ -51,7 +51,7 @@
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
       </Parameters>
       <Docs>
         <param name="builder">To be added.</param>
@@ -206,7 +206,7 @@
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="httpClientLoggerFactory" Type="System.Func&lt;System.IServiceProvider,Microsoft.Extensions.Http.Logging.IHttpClientLogger&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="wrapHandlersPipeline" Type="System.Boolean" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0" />
       </Parameters>
@@ -247,7 +247,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="wrapHandlersPipeline" Type="System.Boolean" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
       </Parameters>
       <Docs>
@@ -529,7 +529,7 @@
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="configureAdditionalHandlers" Type="System.Action&lt;System.Collections.Generic.IList&lt;System.Net.Http.DelegatingHandler&gt;,System.IServiceProvider&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
       </Parameters>
       <Docs>
@@ -666,7 +666,7 @@
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="configureHandler" Type="System.Action&lt;System.Net.Http.HttpMessageHandler,System.IServiceProvider&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
       </Parameters>
       <Docs>
@@ -894,7 +894,7 @@ The provided `shouldRedactHeaderValue` predicate will be evaluated for each head
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
       </Parameters>
       <Docs>
         <param name="builder">To be added.</param>
@@ -979,7 +979,7 @@ The provided `shouldRedactHeaderValue` predicate will be evaluated for each head
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="configureBuilder" Type="System.Action&lt;Microsoft.Extensions.DependencyInjection.ISocketsHttpHandlerBuilder&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
       </Parameters>
       <Docs>
@@ -1011,7 +1011,7 @@ The provided `shouldRedactHeaderValue` predicate will be evaluated for each head
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="configureHandler" Type="System.Action&lt;System.Net.Http.SocketsHttpHandler,System.IServiceProvider&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>

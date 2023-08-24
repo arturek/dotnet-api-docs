@@ -207,7 +207,7 @@
         <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceType" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
@@ -253,7 +253,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -489,7 +489,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -531,7 +531,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
@@ -575,7 +575,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
@@ -632,7 +632,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -673,7 +673,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -735,7 +735,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -770,7 +770,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -812,7 +812,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
@@ -856,7 +856,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
@@ -913,7 +913,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -954,7 +954,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -1004,7 +1004,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -1059,7 +1059,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -1094,7 +1094,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -1136,7 +1136,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
@@ -1180,7 +1180,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="service" Type="System.Type" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
@@ -1237,7 +1237,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -1278,7 +1278,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="services" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
@@ -1340,7 +1340,7 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" RefType="this" />
+        <Parameter Name="collection" Type="Microsoft.Extensions.DependencyInjection.IServiceCollection" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0">
           <Attributes>
             <Attribute>
